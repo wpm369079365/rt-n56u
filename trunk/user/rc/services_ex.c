@@ -595,7 +595,7 @@ write_smb_conf_header(void)
 	fprintf(fp, "max log size = 5\n");
 	fprintf(fp, "socket options = TCP_NODELAY SO_KEEPALIVE SO_RCVBUF=32768 SO_SNDBUF=32768\n");
 	fprintf(fp, "max xmit = 32768\n");
-	printf(fp, "read size = 32768\n");
+	fprintf(fp, "read size = 32768\n");
 	fprintf(fp, "unix charset = UTF8\n");
 	fprintf(fp, "display charset = UTF8\n");
 	fprintf(fp, "bind interfaces only = %s\n", "yes");
